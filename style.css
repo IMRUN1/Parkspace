@@ -1,9 +1,54 @@
-#logo{
-    height: 200px;
-    width: 200px;
+.nav{
+    background-color: rgb(21, 93, 15);
+    height: 10wh;
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
+#d{
+    text-align: center;
+    text-decoration: double;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.927);
+}
+.links{
+    color: rgb(243, 255, 152);
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+
+footer{
+    display: flex;
+    background-color: gray;
+    color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+#back{
+    color: rgb(232, 105, 105);
+    height: 100px;
+    width: 250px;
+}
+
+
+
 #img{
-    height: 200px;
-    width: 200px; 
+    height: 10wh;
+    width: 10vh; 
+}
+
+.Typ{
+    height: 50px;
+    width: 300px;
+}
+
+#add{
+    height: 3rem;
+    width: 5rem;
+    color: black;
+    background-color: rgb(179, 24, 24);
 }
