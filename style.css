@@ -1,6 +1,80 @@
+
+body{
+    background-color: rgb(125, 201, 94);
+}
+
 .nav{
     background-color: rgb(21, 93, 15);
     height: 10wh;
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#d{
+    text-align: center;
+    text-decoration: double;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.927);
+}
+.links{
+    color: rgb(243, 255, 152);
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+
+
+#back{
+    color: rgb(232, 105, 105);
+    height: 100px;
+    width: 250px;
+}
+
+
+
+#img{
+    height: 10wh;
+    width: 10vh; 
+}
+
+.Typ{
+    height: 5vh;
+    width: 30vw;
+}
+
+#add{
+    height: 3rem;
+    width: 5rem;
+    color: black;
+    background-color: rgb(179, 24, 24);
+}
+
+.ncrds{
+    background-image: radial-gradient(circle, rgb(156, 252, 151), rgb(107, 163, 104), rgb(81, 91, 58));
+    color: rgb(62, 26, 168);
+    height: 50vh;
+    width: 20vw;
+    padding: 2px;
+    margin: 1rem;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s ease-out;
+}
+
+.ncrds:hover{
+    transform: scale(1.05);
+}
+body{
+    background-color: rgb(125, 201, 94);
+}
+
+.nav{
+    background-color: rgb(21, 93, 15);
+    height: 10vh;
     width: 100vw; 
     display: flex;
     align-items: center;
@@ -63,4 +137,9 @@ footer{
     display: inline-block;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s ease-out;
+}
+
+.ncrds:hover{
+    transform: scale(1.05);
 }

@@ -5,7 +5,10 @@ let head = document.getElementById("Heading")
 let pgh = document.getElementById("Para")
 
 function createCard (){
-    console.log("created --1")
+    if (pgh.value === "" || head.value === "") {
+        console.log("Clear first")
+    } else {
+        console.log("created --1")
     const str = document.createElement("div")
     str.classList.add("ncrds")
     card.appendChild(str)
@@ -17,4 +20,5 @@ function createCard (){
     para.textContent = pgh.value
     pgh.value = ""
     str.appendChild(para)
+    }
 }
