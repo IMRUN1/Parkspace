@@ -42,8 +42,8 @@ footer{
 }
 
 .Typ{
-    height: 50px;
-    width: 300px;
+    height: 5vh;
+    width: 30vw;
 }
 
 #add{
@@ -51,4 +51,16 @@ footer{
     width: 5rem;
     color: black;
     background-color: rgb(179, 24, 24);
+}
+
+.ncrds{
+    background-image: radial-gradient(circle, rgb(156, 252, 151), rgb(107, 163, 104), rgb(81, 91, 58));
+    color: rgb(62, 26, 168);
+    height: 50vh;
+    width: 20vw;
+    padding: 2px;
+    margin: 1rem;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
